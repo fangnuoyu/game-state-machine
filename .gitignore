@@ -1,3 +1,27 @@
-# Godot 4+ specific ignores
+# Godot 4
 .godot/
+.import/
+
+# Export files
+export.cfg
+export_credentials.cfg
+
+# Temporary files
+*.tmp
+*.translation
+
+# Mono / C# (如果你没用 C#，留着也没事)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Android export
 /android/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
